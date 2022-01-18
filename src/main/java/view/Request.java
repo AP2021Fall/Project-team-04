@@ -5,21 +5,18 @@ import model.RequestType;
 import java.util.Scanner;
 
 public class Request {
-    public static Scanner scanner = new Scanner(System.in);
-    private String command;
+//    private static String command;
+//    public static String getCommand() {
+//        return command;
+//    }
+//
+//    public static void getNewCommand(String command) { command = command;
+//    }
 
-    public String getCommand() {
-        return command;
-    }
-
-    public void getNewCommand() {
-        this.command = scanner.nextLine();
-    }
-
-    public RequestType getType() {
+    public static RequestType getType(String command) {
         if (command == null || command.equals("")) {
             return null;
-        } else if (command.matches("user create --username <(?<userName>.+)> -- password1 <(?<passWord1>\\S+)> --password2 <(?<passWord2>\\S+)> --email Address <(?<email>.+)>")){
+        } else if (command.matches("user create --username <(?<userName>.+)> -- password1 <(?<passWord1>\\S+)> --password2 <(?<passWord2>\\S+)> --email Address <(?<email>.+)> --birthday <(?<birthday>\\.+)>$")){
             return RequestType.USER_CREATE;
         } else if (command.matches("user login --username <(?<userName>.+)> --password <(?<passWord>\\S+)>")){
             return RequestType.USER_LOGIN;
