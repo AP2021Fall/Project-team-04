@@ -1,8 +1,9 @@
 package model;
 
 import java.util.ArrayList;
+import java.util.Date;
 
-public class User {
+public class UserKamyar {
     private String fullName;
     private String userName;
     private String passWord;
@@ -13,8 +14,9 @@ public class User {
     private ArrayList<String> userAllPassWords = new ArrayList<>();
     private ArrayList<String> usersTeams = new ArrayList<>();
     private ArrayList<String> notifications = new ArrayList<>();
+    private ArrayList<String> showLogs = new ArrayList<>();
 
-    public User(String userName, String passWord, String email , String role) {
+    public UserKamyar(String userName, String passWord, String email , String role) {
         this.userName = userName;
         this.passWord = passWord;
         this.email = email;
@@ -111,5 +113,25 @@ public class User {
 
     public String getNotifications(int i){
         return notifications.get(i);
+    }
+
+    public ArrayList<String> getUsersTeams() {
+        return usersTeams;
+    }
+
+    public void sendNotification(String notification){
+        notifications.add(notification);
+    }
+
+    public void addLogs(String date){
+        showLogs.add(date);
+    }
+
+    public String getLogs(int i){
+        return showLogs.get(i);
+    }
+
+    public int getLogsCount(){
+        return showLogs.size();
     }
 }

@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="477782d4-8488-4427-9771-75e4b9bf17af" name="Changes" comment="" />
+=======
     <list default="true" id="a609ec90-f4b1-4579-b412-c84fa1007ec0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProgramController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SystemAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/TeamLeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/TeamMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/BoardMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/CalenderMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/NotificationBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/SystemAdminMainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/TasksPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/TeamLeaderMainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/TeamLeaderTeamMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/TeamMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e573c5ca-d90c-4ad6-b36b-12befe7d743b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e573c5ca-d90c-4ad6-b36b-12befe7d743b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e573c5ca-d90c-4ad6-b36b-12befe7d743b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e573c5ca-d90c-4ad6-b36b-12befe7d743b/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProgramController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProgramController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Utilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Utilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserKamyar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/Request.java" afterDir="false" />
     </list>
+>>>>>>> 266df34637a7e49546de53088fa4b2c229486789
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,56 +50,50 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="22CGZxogHGciwVBUm6U2doYPqXv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="239sycRTrJzUqpEYCJ1FKsfVCbj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
+=======
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectphase0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+>>>>>>> 266df34637a7e49546de53088fa4b2c229486789
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a609ec90-f4b1-4579-b412-c84fa1007ec0" name="Changes" comment="" />
-      <created>1639334227397</created>
+      <changelist id="477782d4-8488-4427-9771-75e4b9bf17af" name="Changes" comment="" />
+      <created>1641157896246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1641157896246</updated>
+=======
       <updated>1639334227397</updated>
-      <workItem from="1639334228500" duration="10834000" />
+      <workItem from="1639334228500" duration="11723000" />
+      <workItem from="1639823859921" duration="1200000" />
+      <workItem from="1641721698506" duration="24427000" />
+      <workItem from="1642435588294" duration="8072000" />
+>>>>>>> 266df34637a7e49546de53088fa4b2c229486789
     </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

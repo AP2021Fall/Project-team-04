@@ -1,5 +1,6 @@
 package controller;
 
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,5 +10,7 @@ public class Utilities {
         Matcher enteredCommandMatcher = enteredRegexPattern.matcher(enteredCommand);
         return enteredCommandMatcher;
     }
+    public static Scanner scanner = new Scanner(System.in);
+
 }
 
