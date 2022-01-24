@@ -1,5 +1,6 @@
 package model;
 
+<<<<<<< HEAD:src/model/Task.java
 import java.util.ArrayList;
 
 public class Task {
@@ -96,4 +97,7 @@ public class Task {
     public void setDonePercentage(String donePercentage) {
         this.donePercentage = donePercentage;
     }
+=======
+public class Task {
+>>>>>>> 266df34637a7e49546de53088fa4b2c229486789:src/main/java/model/Task.java
 }
