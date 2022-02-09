@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo3.MenuController">
+   <left>
+      <VBox fx:id="vb" prefHeight="400.0" prefWidth="116.0" style="-fx-background-color: #0D1824;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#ProfileMenu" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: nsparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Profile menu" textFill="#f0f0f0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#TeamMenu" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: nsparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Team menu" textFill="#f0f0f0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="96.0" mnemonicParsing="false" onMouseClicked="#RoadMap" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: nsparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Road map" textFill="#f0f0f0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="140.0" mnemonicParsing="false" onMouseClicked="#TaskPage" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: nsparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="Task page" textFill="#f0f0f0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="183.0" mnemonicParsing="false" onMouseClicked="#MyTasks" prefHeight="43.0" prefWidth="118.0" style="-fx-background-color: nsparent; -fx-border-color: white; -fx-border-width: 0px 0px 2px 0px;" text="My tasks" textFill="#f0f0f0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="ap" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #14242B;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#fcfafa" layoutX="203.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
